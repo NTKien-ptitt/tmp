@@ -6,20 +6,21 @@ network:
       dhcp4: false
       addresses:
         - 192.168.186.26/24
-      gateway4: 192.168.186.1
       nameservers:
         addresses:
-          - 8.8.4.4
+          - 8.8.8.8
   bridges:
     vmbr0:
       interfaces:
         - ens18
       addresses:
         - 45.122.223.122/24
-      gateway4: 192.168.186.1
       nameservers:
         addresses:
           - 8.8.4.4
+      routes:
+        - to: 0.0.0.0/0
+          via: 192.168.186.1
     vmbr1:
       interfaces:
         - eth0
