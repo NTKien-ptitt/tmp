@@ -2,7 +2,7 @@ Dưới đây là cấu hình cập nhật lại với **VM1 (10.0.1.2)**, **VM2
 
 ---
 
-## **🛠 Phần 1: Cấu hình VM1 và VM2**  
+# **🛠 Phần 1: Cấu hình VM1 và VM2**  
 ### **Trên VM1 (10.0.1.2)**
 1. **Thêm route để tới VM4 (10.0.0.2) qua VM2 (192.168.186.25)**
 ```bash
@@ -34,7 +34,7 @@ ip route show
 
 ---
 
-## **🛠 Phần 2: Cấu hình VM3 và VM4**  
+# **🛠 Phần 2: Cấu hình VM3 và VM4**  
 ### **Trên VM3 (192.168.186.26 - WAN 45.122.223.122)**
 
 2. **Chấp nhận forwarding giữa 10.0.1.0/24 và 10.0.0.0/24**
