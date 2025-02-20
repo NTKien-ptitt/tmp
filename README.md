@@ -21,11 +21,7 @@ ping 10.0.0.2
 ---
 
 ### **Trên VM2 (192.168.186.25 - WAN 45.122.223.122)**
-1. **Cấu hình NAT nếu chưa có**
-```bash
-iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
-echo 1 > /proc/sys/net/ipv4/ip_forward
-```
+
 2. **Chấp nhận forwarding giữa 10.0.1.0/24 và 10.0.0.0/24**
 ```bash
 iptables -A FORWARD -s 10.0.1.0/24 -d 10.0.0.0/24 -j ACCEPT
@@ -40,11 +36,7 @@ ip route show
 
 ## **🛠 Phần 2: Cấu hình VM3 và VM4**  
 ### **Trên VM3 (192.168.186.26 - WAN 45.122.223.122)**
-1. **Cấu hình NAT nếu chưa có**
-```bash
-iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
-echo 1 > /proc/sys/net/ipv4/ip_forward
-```
+
 2. **Chấp nhận forwarding giữa 10.0.1.0/24 và 10.0.0.0/24**
 ```bash
 iptables -A FORWARD -s 10.0.1.0/24 -d 10.0.0.0/24 -j ACCEPT
