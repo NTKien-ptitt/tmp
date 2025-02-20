@@ -63,4 +63,3 @@ ping 10.0.1.2
 
 ---
 
-## ✅ **Sau khi hoàn thành, VM1 (10.0.1.2) và VM4 (10.0.0.2) có thể ping nhau thông qua VM2 hoặc VM3.**
