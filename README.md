@@ -1,4 +1,5 @@
 Danh sách các nền tảng Bug Bounty và Crowdsourced Security phổ biến tham gia để săn lỗi bảo mật:
+https://app.intigriti.com/
 ---
 ### **1. Nền tảng phổ biến và có độ uy tín cao**
 ✅ **[HackerOne](https://www.hackerone.com/)** – Một trong những nền tảng bug bounty lớn nhất, hợp tác với các tổ chức như Google, GitHub, PayPal.  
