@@ -29,4 +29,3 @@ https://app.intigriti.com/
 🔎 **[RedStorm](https://www.redstorm.io/)** – Chủ yếu phục vụ các doanh nghiệp có yêu cầu pentest crowdsourced.  
 
 ---
-![475512171_122193501308137943_5157220717257813780_n](https://github.com/user-attachments/assets/705fdb62-ae5a-46c5-827f-1432f5ed1755)
